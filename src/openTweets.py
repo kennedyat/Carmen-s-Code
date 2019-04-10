@@ -12,6 +12,7 @@ def openLine():
     #print(f.read())
     with open(file_to_open,'rt') as f:
         for line in f:
-            #print('got line', line)
+            print('got line', line)
             tweetLines= "".join([tweetLines," \n"+ line])
     return tweetLines
+openLine();
