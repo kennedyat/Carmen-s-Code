@@ -1,5 +1,0 @@
-import gzip
-
-with gzip.open('nusample.gz','rt') as f:
-    for line in f:
-        print('got line', line)
