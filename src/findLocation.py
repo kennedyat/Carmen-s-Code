@@ -13,5 +13,5 @@ def findLocation():
             end = line.find('"url"', start)
             #locations["tweet" + str(i) + " Location"] =
 
-            print("hello")
+            print(line[start:end])
 findLocation()
