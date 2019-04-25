@@ -5,7 +5,7 @@ from pathlib import Path
 
 def openLine():
     data_folder = Path(r"C:\Users\ktpenny\Desktop\Carmen-s-Code\data")
-    file_to_open = data_folder / "nusample"
+    file_to_open = data_folder / "nusample.json"
     tweetLines = ""
 
     #f = open(file_to_open)
